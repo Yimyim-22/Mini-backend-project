@@ -1,0 +1,22 @@
+[
+  {
+    "email": "yimika@gmail.com",
+    "password": "football123"
+  },
+  {
+    "email": "david@gmail.com",
+    "password": "password123"
+  },
+  {
+    "email": "princess@gmail.com",
+    "password": "booklover123"
+  },
+  {
+    "email": "john@gmail.com",
+    "password": "johnpass456"
+  },
+  {
+    "email": "sarah@gmail.com",
+    "password": "sarah1234"
+  }
+]

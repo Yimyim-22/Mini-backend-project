@@ -1,3 +1,7 @@
+const dns = require("dns");
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
+
 require("dotenv").config()
 const mongoose = require('mongoose')
 const express = require('express')
@@ -7,7 +11,6 @@ app.use(express.json())
 
 const connectDB = async () => {
     try {
-        console.log(process.env.MONGO_URL);
         await mongoose.connect(process.env.MONGO_URL);
 
         console.log('MongoDB Connected');
